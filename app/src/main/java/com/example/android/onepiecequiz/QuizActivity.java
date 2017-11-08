@@ -164,5 +164,6 @@ public class QuizActivity extends AppCompatActivity{
                 }
             }
         });
+
     }
 }
