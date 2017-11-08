@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">One Piece Quiz</string>
+
+    <string name="quiz_activity">Quiz Activity</string>
+
+    <string name="score_activity">Score Activity</string>
+
+    <string name="how_much_do_you_like">How much do you like</string>
+
+    <string name="one_piece_manga">One Piece manga?</string>
+
+    <string name="description">The legendary pirate king Gol D. Roger leaves the treasure \'One Piece\'. Monkey D. Luffy sets sail on his own to become the pirate king, and then recruits his Straw Hat Pirate crew and begins a full-fledged adventure towards the Grand Line.</string>
+    
+    <string name="adventure">Do you want to start an adventure?</string>
+
+    <!-- Question 1 -->
+    <string name="question_one">1. Monkey D. Luffy can stretch his body like rubber by eating the Devil Fruit, a rubber-rubber fruit. But there is one thing Luffy cannot do, what is it? </string>
+
+    <string name="cannot_swim">He cannot swim</string>
+
+    <string name="lose_taste">He loses his sense of taste and can not taste anything</string>
+
+    <string name="fire">He cannot go near the fire</string>
+
+    <string name="cannot_sleep">He cannot sleep</string>
+
+    <!-- Question 2 -->
+    <string name="question_two">2. Who meets Luffy at the ocean-going restaurant Baratie and become Luffy\'s colleague? </string>
+    
+    <string name="zeff">Zeff</string>
+    
+    <string name="shanks">Shanks</string>
+    
+    <string name="usopp">Usopp</string>
+    
+    <string name="sanji">Sanji</string>
+
+    <!-- Question 3 -->
+    <string name="question_three">3. What is the band of pirates that Nami, the pirate thief, once belonged to?</string>
+    
+    <string name="baroque_works">Baroque Works</string>
+    
+    <string name="buggy_alvida">Buggy and Alvida Alliance</string>
+    
+    <string name="arlong">Arlong Pirates</string>
+    
+    <string name="krieg">Krieg Pirates</string>
+
+    <!-- Question 4 -->
+    <string name="question_four">4. Who is Roronoa Zoro\'s childhood friend, and who is the navy resembling his friend?</string>
+
+    <string name="nico_robin">Nico Robin</string>
+
+    <string name="tashigi">Tashigi</string>
+
+    <string name="nojiko">Nojiko</string>
+    
+    <string name="kuina">Kuina</string>
+
+    <!-- Question 5 -->
+    <string name="question_five">5. What is Chopper the blue-nosed reindeer\'s occupation?</string>
+    
+    <string name="doctor">Doctor</string>
+    
+    <string name="navigator">Navigator</string>
+    
+    <string name="cook">Cook</string>
+    
+    <string name="musician">Musician</string>
+
+    <!-- Question 6 -->
+    <string name="question_six">6. What is the entrance of the Grand Line located at Red Line?</string>
+
+    <string name="enter">Please enter</string>
+
+    <string name="reverse_mountain">reverse mountain</string>
+
+    <!-- Question 7 -->
+    <string name="question_seven">7. How much is Monkey D. Luffy\'s first reward?</string>
+
+    <string name="ten_million_beri">10 million beri</string>
+
+    <string name="twenty_million_beri">20 million beri</string>
+
+    <string name="thirty_million_beri">30 million beri</string>
+
+    <string name="fifty_million_beri">50 million beri</string>
+
+    <!-- Question 8 -->
+    <string name="question_eight">8. What is the ship of the Straw Hat Pirates? Check all that apply.</string>
+
+    <string name="going_merry">Going Merry</string>
+
+    <string name="thousand_sunny">Thousand Sunny</string>
+
+    <string name="moby_dick">Moby Dick</string>
+
+    <string name="red_force">Red Force</string>
+
+    <string name="your_score">Your score is</string>
+
+    <string name="button_start">Start</string>
+
+    <string name="button_submit">Submit</string>
+
+    <string name="button_back">Back to the start</string>
+
+    <string name="toast_message">The number of correct answers: </string>
+
+    <string name="toast_solve_problem">Please solve all problems.</string>
+
+</resources>
