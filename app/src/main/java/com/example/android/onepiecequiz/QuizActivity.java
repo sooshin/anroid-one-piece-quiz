@@ -28,15 +28,6 @@ public class QuizActivity extends AppCompatActivity{
     private CheckBox goingMerryCheckBox;
     private EditText editText;
 
-    private boolean one = false;
-    private boolean two = false;
-    private boolean three = false;
-    private boolean four = false;
-    private boolean five = false;
-    private boolean six = false;
-    private boolean seven = false;
-    private boolean eight = false;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,13 +71,6 @@ public class QuizActivity extends AppCompatActivity{
                 if (tashigiCheckBox.isChecked() && kuinaCheckBox.isChecked()
                         && !nicoRobinCheckBox.isChecked() && !nojikoCheckBox.isChecked()) {
                     count += 1;
-                    four = true;
-                } else if (!tashigiCheckBox.isChecked() && !kuinaCheckBox.isChecked()
-                        && !nicoRobinCheckBox.isChecked() && !nojikoCheckBox.isChecked()) {
-                    four = false;
-                }
-                else {
-                    four = true;
                 }
 
                 // Check the question 6, which answer is Reverse Mountain
@@ -96,37 +80,22 @@ public class QuizActivity extends AppCompatActivity{
                 // Compare with the correct answer to see if the answer is correct.
                 if (numberSixAnswer.toLowerCase().equals(getString(R.string.reverse_mountain))) {
                     count += 1;
-                    six = true;
-                } else if (numberSixAnswer.matches("")){
-                    six = false;
-                } else {
-                    six = true;
+
                 }
 
                 // Check the question 8, which answer is Going Merry and Thousand Sunny
                 if (goingMerryCheckBox.isChecked() && thousandSunnyCheckBox.isChecked()
                         && !mobyDickCheckBox.isChecked() && !redForceCheckBox.isChecked()) {
                     count += 1;
-                    eight = true;
-                } else if (!goingMerryCheckBox.isChecked() && !thousandSunnyCheckBox.isChecked()
-                        && !mobyDickCheckBox.isChecked() && !redForceCheckBox.isChecked()){
-                    eight = false;
-                } else {
-                    eight = true;
                 }
-
                 // Create a new intent to open the {@link ScoreActivity}
                 Intent quizIntent = new Intent(QuizActivity.this, ScoreActivity.class);
                 // Pass count value from QuizActivity to ScoreActivity
                 quizIntent.putExtra("count", count);
 
                 // Start the new activity
-                if(!one || !two || !three || !four || !five ||!six || !seven || !eight ){
-                    Toast.makeText(QuizActivity.this, getString(R.string.toast_solve_problem), Toast.LENGTH_SHORT).show();
-                }else {
-                    Toast.makeText(QuizActivity.this, getString(R.string.toast_message)+ " " + count + "/8", Toast.LENGTH_SHORT).show();
-                    startActivity(quizIntent);
-                }
+                Toast.makeText(QuizActivity.this, getString(R.string.toast_message)+ " " + count + "/8", Toast.LENGTH_SHORT).show();
+                startActivity(quizIntent);
             }
         });
 
@@ -139,9 +108,6 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.swim_radio) {
                     count += 1;
-                    one = true;
-                } else {
-                    one =true;
                 }
             }
         });
@@ -156,9 +122,6 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.sanji_radio) {
                     count += 1;
-                    two = true;
-                } else {
-                    two = true;
                 }
             }
         });
@@ -172,9 +135,6 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.arlong_radio) {
                     count += 1;
-                    three = true;
-                } else {
-                    three = true;
                 }
             }
         });
@@ -188,9 +148,6 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.doctor_radio) {
                     count += 1;
-                    five = true;
-                } else {
-                    five = true;
                 }
             }
         });
@@ -204,12 +161,8 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.berries_3000_radio) {
                     count += 1;
-                    seven = true;
-                } else {
-                    seven = true;
                 }
             }
         });
     }
 }
-

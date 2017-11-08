@@ -107,6 +107,5 @@
 
     <string name="toast_message">The number of correct answers: </string>
 
-    <string name="toast_solve_problem">Please solve all problems.</string>
 
 </resources>
