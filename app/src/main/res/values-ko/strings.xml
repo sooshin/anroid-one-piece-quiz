@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">One Piece Quiz</string>
+    <string name="quiz_activity">Quiz Activity</string>
+
+    <string name="score_activity">Score Activity</string>
+
+    <string name="how_much_do_you_like">만화 원피스를</string>
+
+    <string name="one_piece_manga">얼마나 좋아하나요?</string>
+
+    <string name="description">전설의 해적왕 골 D. 로저가 \'원피스\'를 남기고 떠납니다. 몽키 D. 루피는 해적왕이 되기 위해 홀로 항해에 나선후 밀짚모자 해적단 동료를 모아 위대한 항로를 향해 본격적인 모험을 시작합니다.</string>
+
+    <string name="adventure">모험을 시작할까요?</string>
+
+    <!-- Question 1 -->
+    <string name="question_one">1. 몽키 D. 루피는 고무고무 열매를 먹어서 몸을 고무처럼 늘어나게 할 수 있지만, 루피가 한가지 할 수 없는 것이 있는데 이것은 무엇일까요? </string>
+
+    <string name="cannot_swim">수영을 할 수 없다</string>
+
+    <string name="lose_taste">미각을 잃어 음식 맛을 볼 수 없다</string>
+
+    <string name="fire">불에 가까이 갈 수 없다</string>
+
+    <string name="cannot_sleep">잠을 잘 수 없다</string>
+
+    <!-- Question 2 -->
+    <string name="question_two">2. 해상 레스토랑 발라티에에서 만나 훗날 루피의 동료가 되는 사람은 누구입니까?</string>
+
+    <string name="zeff">제프</string>
+
+    <string name="shanks">샹크스</string>
+
+    <string name="usopp">우솝</string>
+
+    <string name="sanji">상디</string>
+
+    <!-- Question 3 -->
+    <string name="question_three">3. 해적 전문 도둑인 나미가 한 때 속한 해적단의 이름은 무엇입니까?</string>
+
+    <string name="baroque_works">바로크 워크스</string>
+
+    <string name="buggy_alvida">버기와 알비다 연합</string>
+
+    <string name="arlong">아론 해적단</string>
+
+    <string name="krieg">클리크 해적단</string>
+
+    <!-- Question 4 -->
+    <string name="question_four">4. 롤로노아 조로의 어릴적 친구와 그 친구를 닮은 해군은 누구누구일까요?</string>
+
+    <string name="nico_robin">니코 로빈</string>
+
+    <string name="tashigi">타시기</string>
+
+    <string name="nojiko">노지코</string>
+
+    <string name="kuina">쿠이나</string>
+
+    <!-- Question 5 -->
+    <string name="question_five">5. 파란 코 순록인 토니토니 쵸파의 직업은 무엇일까요?</string>
+
+    <string name="doctor">의사</string>
+
+    <string name="navigator">항해사</string>
+
+    <string name="cook">요리사</string>
+
+    <string name="musician">음악가</string>
+
+    <!-- Question 6 -->
+    <string name="question_six">6. 레드라인에 위치한 위대한 항로의 입구는 무엇일까요?</string>
+
+    <string name="enter">입력하세요</string>
+
+    <string name="reverse_mountain">reverse mountain</string>
+
+    <!-- Question 7 -->
+    <string name="question_seven">7. 몽키 D. 루피의 최초 현상금은 얼마일까요?</string>
+
+    <string name="ten_million_beri">1천만 베리</string>
+
+    <string name="twenty_million_beri">2천만 베리</string>
+
+    <string name="thirty_million_beri">3천만 베리</string>
+
+    <string name="fifty_million_beri">5천만 베리</string>
+
+    <!-- Question 8 -->
+    <string name="question_eight">8. 밀짚 모자 해적단의 배는 무엇일까요? 모두 고르시오</string>
+
+    <string name="going_merry">고잉메리 호</string>
+
+    <string name="thousand_sunny">싸우전드 써니 호</string>
+
+    <string name="moby_dick">모비딕 호</string>
+
+    <string name="red_force">레드 포스 호</string>
+
+    <string name="your_score">당신의 점수는</string>
+
+    <string name="button_start">시작</string>
+
+    <string name="button_submit">제출</string>
+
+    <string name="button_back">처음으로</string>
+
+    <string name="toast_message">정답 개수: </string>
+
+    <string name="image_description">원피스 이미지</string>
+
+    <string name="q1">Q 1:</string>
+
+    <string name="q2">Q 2:</string>
+
+    <string name="q3">Q 3:</string>
+
+    <string name="q4">Q 4:</string>
+
+    <string name="q5">Q 5:</string>
+
+    <string name="q6">Q 6:</string>
+
+    <string name="q7">Q 7:</string>
+
+    <string name="q8">Q 8:</string>
+
+    <string name="o">O</string>
+
+    <string name="x">X</string>
+</resources>
