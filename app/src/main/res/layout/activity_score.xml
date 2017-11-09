@@ -18,6 +18,7 @@
             android:layout_marginBottom="24dp"
             android:layout_marginTop="24dp"
             android:text="@string/your_score"
+            android:textColor="@color/color_question"
             android:textAppearance="?android:textAppearanceLarge" />
 
         <TextView
