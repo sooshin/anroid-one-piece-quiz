@@ -81,7 +81,7 @@ public class QuizActivity extends AppCompatActivity{
 
                 // Check the question 6, which answer is Reverse Mountain
                 // Get text string form editText and remove space
-                String numberSixAnswer = editText.getText().toString();
+                String numberSixAnswer = editText.getText().toString().trim();
 
                 // Compare with the correct answer to see if the answer is correct.
                 if (numberSixAnswer.toLowerCase().equals(getString(R.string.reverse_mountain))) {
