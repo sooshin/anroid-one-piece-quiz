@@ -21,11 +21,7 @@
 
         <RadioGroup
             android:id="@+id/number_one_radio_group"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="8dp"
-            android:orientation="vertical">
+            style="@style/RadioGroupStyle">
 
             <RadioButton
                 android:id="@+id/swim_radio"
@@ -65,11 +61,7 @@
 
         <RadioGroup
             android:id="@+id/number_two_radio_group"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="8dp"
-            android:orientation="vertical">
+            style="@style/RadioGroupStyle">
 
             <RadioButton
                 android:id="@+id/zeff_radio"
@@ -110,11 +102,7 @@
 
         <RadioGroup
             android:id="@+id/number_three_radio_group"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="8dp"
-            android:orientation="vertical">
+            style="@style/RadioGroupStyle">
 
             <RadioButton
                 android:id="@+id/baroque_works_radio"
@@ -191,11 +179,7 @@
 
         <RadioGroup
             android:id="@+id/number_five_radio_group"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="8dp"
-            android:orientation="vertical">
+            style="@style/RadioGroupStyle">
 
             <RadioButton
                 android:id="@+id/doctor_radio"
@@ -250,11 +234,7 @@
 
         <RadioGroup
             android:id="@+id/number_seven_radio_group"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="8dp"
-            android:orientation="vertical">
+            style="@style/RadioGroupStyle">
 
             <RadioButton
                 android:layout_width="wrap_content"
