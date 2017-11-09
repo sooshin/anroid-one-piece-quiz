@@ -79,18 +79,18 @@ public class ScoreActivity extends AppCompatActivity {
         // Change null to String "X"
         for (int i = 0 ; i <quizResult.length; i++) {
             if (quizResult[i] == null) {
-                quizResult[i] = "X";
+                quizResult[i] = getString(R.string.x);
             }
         }
 
-        String resultOne = "Q1 :" + " " + quizResult[0];
-        String resultTwo = "Q2 :" + " " + quizResult[1];
-        String resultThree = "Q3 :" + " " + quizResult[2];
-        String resultFour = "Q4 :" + " " + quizResult[3];
-        String resultFive = "Q5 :" + " " + quizResult[4];
-        String resultSix = "Q6 :" + " " + quizResult[5];
-        String resultSeven = "Q7 :" + " " + quizResult[6];
-        String resultEight = "Q8 :" + " " + quizResult[7];
+        String resultOne = getString(R.string.q1) + " " + quizResult[0];
+        String resultTwo = getString(R.string.q2) + " " + quizResult[1];
+        String resultThree = getString(R.string.q3) + " " + quizResult[2];
+        String resultFour = getString(R.string.q4) + " " + quizResult[3];
+        String resultFive = getString(R.string.q5) + " " + quizResult[4];
+        String resultSix = getString(R.string.q6) + " " + quizResult[5];
+        String resultSeven = getString(R.string.q7) + " " + quizResult[6];
+        String resultEight = getString(R.string.q8) + " " + quizResult[7];
 
         // Displays whether each question is correct.
         qOneTextView.setText(resultOne);

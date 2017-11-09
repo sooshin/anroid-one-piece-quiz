@@ -73,10 +73,10 @@ public class QuizActivity extends AppCompatActivity{
                 if (tashigiCheckBox.isChecked() && kuinaCheckBox.isChecked()
                         && !nicoRobinCheckBox.isChecked() && !nojikoCheckBox.isChecked()) {
                     count += 1;
-                    quizResult[3] = "O";
+                    quizResult[3] = getString(R.string.o);
                 }
                 else {
-                    quizResult[3] = "X";
+                    quizResult[3] = getString(R.string.x);
                 }
 
                 // Check the question 6, which answer is Reverse Mountain
@@ -86,20 +86,20 @@ public class QuizActivity extends AppCompatActivity{
                 // Compare with the correct answer to see if the answer is correct.
                 if (numberSixAnswer.toLowerCase().equals(getString(R.string.reverse_mountain))) {
                     count += 1;
-                    quizResult[5] = "O";
+                    quizResult[5] = getString(R.string.o);
                 }
                 else {
-                    quizResult[5] = "X";
+                    quizResult[5] = getString(R.string.x);
                 }
 
                 // Check the question 8, which answer is Going Merry and Thousand Sunny
                 if (goingMerryCheckBox.isChecked() && thousandSunnyCheckBox.isChecked()
                         && !mobyDickCheckBox.isChecked() && !redForceCheckBox.isChecked()) {
                     count += 1;
-                    quizResult[7] = "O";
+                    quizResult[7] = getString(R.string.o);
                 }
                 else {
-                    quizResult[7] = "X";
+                    quizResult[7] = getString(R.string.x);
                 }
 
                 // Create a new intent to open the {@link ScoreActivity}
@@ -125,10 +125,10 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.swim_radio) {
                     count += 1;
-                    quizResult[0] = "O";
+                    quizResult[0] = getString(R.string.o);
                 }
                 else {
-                    quizResult[0] = "X";
+                    quizResult[0] = getString(R.string.x);
                 }
             }
         });
@@ -143,10 +143,10 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.sanji_radio) {
                     count += 1;
-                    quizResult[1] = "O";
+                    quizResult[1] = getString(R.string.o);
                 }
                 else {
-                    quizResult[1] = "X";
+                    quizResult[1] = getString(R.string.x);
                 }
             }
         });
@@ -160,10 +160,10 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.arlong_radio) {
                     count += 1;
-                    quizResult[2] = "O";
+                    quizResult[2] = getString(R.string.o);
                 }
                 else {
-                    quizResult[2] = "X";
+                    quizResult[2] = getString(R.string.x);
                 }
             }
         });
@@ -177,10 +177,10 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.doctor_radio) {
                     count += 1;
-                    quizResult[4] = "O";
+                    quizResult[4] = getString(R.string.o);
                 }
                 else {
-                    quizResult[4] = "X";
+                    quizResult[4] = getString(R.string.x);
                 }
             }
         });
@@ -194,10 +194,10 @@ public class QuizActivity extends AppCompatActivity{
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 if (checkedId == R.id.berries_3000_radio) {
                     count += 1;
-                    quizResult[6] = "O";
+                    quizResult[6] = getString(R.string.o);
                 }
                 else {
-                    quizResult[6] = "X";
+                    quizResult[6] = getString(R.string.x);
                 }
             }
         });
