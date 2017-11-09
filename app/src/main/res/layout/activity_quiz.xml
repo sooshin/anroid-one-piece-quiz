@@ -12,12 +12,8 @@
         android:padding="16dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:text="@string/question_one"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_one" />
 
         <RadioGroup
             android:id="@+id/number_one_radio_group"
@@ -53,11 +49,8 @@
         </RadioGroup>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/question_two"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_two" />
 
         <RadioGroup
             android:id="@+id/number_two_radio_group"
@@ -94,11 +87,8 @@
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question_three"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_three" />
 
         <RadioGroup
             android:id="@+id/number_three_radio_group"
@@ -134,11 +124,8 @@
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question_four"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_four" />
 
         <CheckBox
             android:id="@+id/nico_robin_checkbox"
@@ -171,11 +158,8 @@
             android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question_five"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_five" />
 
         <RadioGroup
             android:id="@+id/number_five_radio_group"
@@ -211,11 +195,8 @@
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question_six"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_six" />
 
         <EditText
             android:id="@+id/six_edit_text"
@@ -226,11 +207,8 @@
             android:hint="@string/enter" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question_seven"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_seven" />
 
         <RadioGroup
             android:id="@+id/number_seven_radio_group"
@@ -264,11 +242,8 @@
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question_eight"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/color_question" />
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_eight" />
 
         <CheckBox
             android:id="@+id/red_force_checkbox"

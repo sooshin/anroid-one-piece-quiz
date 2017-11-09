@@ -25,4 +25,13 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <!-- Style for question text in QuizActivity -->
+    <style name="QuestionTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/color_question</item>
+    </style>
+
 </resources>
