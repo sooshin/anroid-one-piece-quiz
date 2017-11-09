@@ -21,31 +21,23 @@
 
             <RadioButton
                 android:id="@+id/swim_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cannot_swim"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/cannot_swim" />
 
             <RadioButton
                 android:id="@+id/taste_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/lose_taste"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/lose_taste" />
 
             <RadioButton
                 android:id="@+id/fire_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/fire"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/fire" />
 
             <RadioButton
                 android:id="@+id/sleep_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cannot_sleep"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/cannot_sleep" />
         </RadioGroup>
 
         <TextView
@@ -58,31 +50,23 @@
 
             <RadioButton
                 android:id="@+id/zeff_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/zeff"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/zeff" />
 
             <RadioButton
                 android:id="@+id/shanks_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/shanks"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/shanks" />
 
             <RadioButton
                 android:id="@+id/usopp_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/usopp"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/usopp" />
 
             <RadioButton
                 android:id="@+id/sanji_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/sanji"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/sanji" />
 
         </RadioGroup>
 
@@ -96,31 +80,23 @@
 
             <RadioButton
                 android:id="@+id/baroque_works_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/baroque_works"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/baroque_works" />
 
             <RadioButton
                 android:id="@+id/buggy_alvida_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/buggy_alvida"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/buggy_alvida" />
 
             <RadioButton
                 android:id="@+id/arlong_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/arlong"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/arlong" />
 
             <RadioButton
                 android:id="@+id/krieg_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/krieg"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/krieg" />
         </RadioGroup>
 
         <TextView
@@ -129,33 +105,25 @@
 
         <CheckBox
             android:id="@+id/nico_robin_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/RadioButtonAndCheckBoxStyle"
             android:layout_marginTop="8dp"
-            android:text="@string/nico_robin"
-            android:textSize="16sp" />
+            android:text="@string/nico_robin" />
 
         <CheckBox
             android:id="@+id/tashigi_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tashigi"
-            android:textSize="16sp" />
+            style="@style/RadioButtonAndCheckBoxStyle"
+            android:text="@string/tashigi" />
 
         <CheckBox
             android:id="@+id/nojiko_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nojiko"
-            android:textSize="16sp" />
+            style="@style/RadioButtonAndCheckBoxStyle"
+            android:text="@string/nojiko" />
 
         <CheckBox
             android:id="@+id/kuina_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/RadioButtonAndCheckBoxStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/kuina"
-            android:textSize="16sp" />
+            android:text="@string/kuina" />
 
         <TextView
             style="@style/QuestionTextStyle"
@@ -167,31 +135,23 @@
 
             <RadioButton
                 android:id="@+id/doctor_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/doctor"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/doctor" />
 
             <RadioButton
                 android:id="@+id/navigator_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/navigator"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/navigator" />
 
             <RadioButton
                 android:id="@+id/cook_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cook"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/cook" />
 
             <RadioButton
                 android:id="@+id/musician_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/musician"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/musician" />
         </RadioGroup>
 
         <TextView
@@ -215,29 +175,21 @@
             style="@style/RadioGroupStyle">
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/ten_million_beri"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/ten_million_beri" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/twenty_million_beri"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/twenty_million_beri" />
 
             <RadioButton
                 android:id="@+id/berries_3000_radio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/thirty_million_beri"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/thirty_million_beri" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/fifty_million_beri"
-                android:textSize="16sp" />
+                style="@style/RadioButtonAndCheckBoxStyle"
+                android:text="@string/fifty_million_beri" />
 
         </RadioGroup>
 
@@ -247,33 +199,25 @@
 
         <CheckBox
             android:id="@+id/red_force_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/RadioButtonAndCheckBoxStyle"
             android:layout_marginTop="8dp"
-            android:text="@string/red_force"
-            android:textSize="16sp" />
+            android:text="@string/red_force" />
 
         <CheckBox
             android:id="@+id/thousand_sunny_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/thousand_sunny"
-            android:textSize="16sp" />
+            style="@style/RadioButtonAndCheckBoxStyle"
+            android:text="@string/thousand_sunny" />
 
         <CheckBox
             android:id="@+id/moby_dick_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/moby_dick"
-            android:textSize="16sp" />
+            style="@style/RadioButtonAndCheckBoxStyle"
+            android:text="@string/moby_dick" />
 
         <CheckBox
             android:id="@+id/going_merry_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/RadioButtonAndCheckBoxStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/going_merry"
-            android:textSize="16sp" />
+            android:text="@string/going_merry" />
 
         <Button
             android:id="@+id/submit_button"
