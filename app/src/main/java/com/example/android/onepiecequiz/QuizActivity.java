@@ -69,7 +69,7 @@ public class QuizActivity extends AppCompatActivity{
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Check the question 4, which answer is Tashigi and Kuina
+                // Check if the answer to question 4 is "Tashigi" and "Kuina"
                 if (tashigiCheckBox.isChecked() && kuinaCheckBox.isChecked()
                         && !nicoRobinCheckBox.isChecked() && !nojikoCheckBox.isChecked()) {
                     count += 1;
@@ -79,8 +79,8 @@ public class QuizActivity extends AppCompatActivity{
                     quizResult[3] = getString(R.string.x);
                 }
 
-                // Check the question 6, which answer is Reverse Mountain
-                // Get text string form editText and remove space
+                // Check if the answer to question 6 is "Reverse Mountain"
+                // Get text string form editText and remove whitespace
                 String numberSixAnswer = editText.getText().toString().trim();
 
                 // Compare with the correct answer to see if the answer is correct.
@@ -92,7 +92,7 @@ public class QuizActivity extends AppCompatActivity{
                     quizResult[5] = getString(R.string.x);
                 }
 
-                // Check the question 8, which answer is Going Merry and Thousand Sunny
+                // Check if the answer to question 8 is "Going Merry" and "Thousand Sunny"
                 if (goingMerryCheckBox.isChecked() && thousandSunnyCheckBox.isChecked()
                         && !mobyDickCheckBox.isChecked() && !redForceCheckBox.isChecked()) {
                     count += 1;
@@ -116,8 +116,8 @@ public class QuizActivity extends AppCompatActivity{
             }
         });
 
-        // Check the question 1, which answer is "He can not swim"
-        // Find the question 1 radio group
+        // Check if the answer to question 1 is "He cannot swim."
+        // Find the radio group in question 1
         RadioGroup numberOneGroup = (RadioGroup) findViewById(R.id.number_one_radio_group);
         numberOneGroup.clearCheck();
         numberOneGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -133,8 +133,8 @@ public class QuizActivity extends AppCompatActivity{
             }
         });
 
-        // Check the question 2, which answer is "Sanji"
-        // Find the question 2 radio group
+        // Check if the answer to question 2 is "Sanji"
+        // Find radio group for question 2
         RadioGroup numberTwoGroup = (RadioGroup) findViewById(R.id.number_two_radio_group);
         numberTwoGroup.clearCheck();
         // This listener gets triggered whenever the checked radio button changed in this radio group
@@ -151,8 +151,8 @@ public class QuizActivity extends AppCompatActivity{
             }
         });
 
-        // Check the question 3, which answer is "Arlong"
-        // Find the question 3 radio group
+        // Check if the answer to question 3 is "Arlong Pirates"
+        // Find the radio group in question 3
         RadioGroup numberThreeGroup = (RadioGroup) findViewById(R.id.number_three_radio_group);
         numberThreeGroup.clearCheck();
         numberThreeGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -168,8 +168,8 @@ public class QuizActivity extends AppCompatActivity{
             }
         });
 
-        // Check the question 5, which answer is "doctor"
-        // Find the question 5 radio group
+        // Check if the answer to question 5 is "Doctor"
+        // Find the radio group in question 5
         RadioGroup numberFiveGroup = (RadioGroup) findViewById(R.id.number_five_radio_group);
         numberFiveGroup.clearCheck();
         numberFiveGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -185,8 +185,8 @@ public class QuizActivity extends AppCompatActivity{
             }
         });
 
-        // Check the number 7, which answer is "30 million beri"
-        // Find the question 7 radio group
+        // Check if the answer to question 7 is "30 million beri"
+        // Find the radio group in question 7
         RadioGroup numberSevenGroup = (RadioGroup) findViewById(R.id.number_seven_radio_group);
         numberSevenGroup.clearCheck();
         numberSevenGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
