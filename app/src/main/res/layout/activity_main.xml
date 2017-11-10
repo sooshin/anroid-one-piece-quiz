@@ -12,7 +12,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/image_view_layout_height"
             android:scaleType="centerCrop"
             android:contentDescription="@string/image_description"
             android:src="@drawable/one_piece" />
@@ -21,10 +21,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="4dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:layout_marginTop="@dimen/layout_margin_top"
             android:fontFamily="sans-serif-medium"
             android:text="@string/how_much_do_you_like"
             android:textAppearance="?android:textAppearanceLarge"
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/layout_margin"
             android:fontFamily="sans-serif"
             android:gravity="center"
             android:text="@string/description"
@@ -64,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="@dimen/button_layout_margin"
             android:text="@string/button_start" />
 
     </LinearLayout>

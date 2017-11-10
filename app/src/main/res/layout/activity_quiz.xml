@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="@dimen/linear_layout_padding">
 
         <TextView
             style="@style/QuestionTextStyle"
@@ -106,7 +106,7 @@
         <CheckBox
             android:id="@+id/nico_robin_checkbox"
             style="@style/RadioButtonAndCheckBoxStyle"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/checkbox_layout_margin_top"
             android:text="@string/nico_robin" />
 
         <CheckBox
@@ -122,7 +122,7 @@
         <CheckBox
             android:id="@+id/kuina_checkbox"
             style="@style/RadioButtonAndCheckBoxStyle"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/checkbox_layout_margin_bottom"
             android:text="@string/kuina" />
 
         <TextView
@@ -162,8 +162,8 @@
             android:id="@+id/six_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/edit_text_layout_margin_bottom"
+            android:layout_marginTop="@dimen/edit_text_layout_margin_top"
             android:hint="@string/enter"
             android:inputType="text" />
 
@@ -201,7 +201,7 @@
         <CheckBox
             android:id="@+id/red_force_checkbox"
             style="@style/RadioButtonAndCheckBoxStyle"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/checkbox_layout_margin_top"
             android:text="@string/red_force" />
 
         <CheckBox
@@ -217,7 +217,7 @@
         <CheckBox
             android:id="@+id/going_merry_checkbox"
             style="@style/RadioButtonAndCheckBoxStyle"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/checkbox_layout_margin_bottom"
             android:text="@string/going_merry" />
 
         <Button

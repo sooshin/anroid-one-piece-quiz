@@ -15,8 +15,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="24dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginBottom="@dimen/score_layout_margin_bottom"
+            android:layout_marginTop="@dimen/score_layout_margin_top"
             android:text="@string/your_score"
             android:textColor="@color/color_question"
             android:textAppearance="?android:textAppearanceLarge" />
@@ -37,17 +37,17 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/linear_layout_width"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginLeft="@dimen/linear_layout_margin_left"
+                android:layout_marginRight="@dimen/linear_layout_margin_right"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/q_one"
                     style="@style/ScoreResultTextStyle"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="@dimen/question_layout_margin_top"
                     android:gravity="end"
                     tools:text="Q1 :" />
 
@@ -72,25 +72,25 @@
             </LinearLayout>
 
             <View
-                android:layout_width="1dp"
+                android:layout_width="@dimen/view_layout_width"
                 android:layout_height="match_parent"
-                android:layout_marginTop="26dp"
+                android:layout_marginTop="@dimen/view_layout_margin_top"
                 android:background="@android:color/darker_gray">
 
             </View>
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/linear_layout_width"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginLeft="@dimen/linear_layout_margin_left"
+                android:layout_marginRight="@dimen/linear_layout_margin_right"
                 android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/q_five"
                     style="@style/ScoreResultTextStyle"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="@dimen/question_layout_margin_top"
                     tools:text="Q5 :" />
 
                 <TextView
@@ -116,8 +116,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="24dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/button_layout_margin_bottom"
+            android:layout_marginTop="@dimen/button_layout_margin_top"
             android:text="@string/button_back" />
     </LinearLayout>
 

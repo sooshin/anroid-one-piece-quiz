@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of ImageView -->
+    <dimen name="image_view_layout_height">200dp</dimen>
+
+    <!-- Layout margin for the TextView in the activity_main.xml -->
+    <dimen name="layout_margin_top">16dp</dimen>
+
+    <dimen name="layout_margin_left">16dp</dimen>
+
+    <dimen name="layout_margin_right">16dp</dimen>
+
+    <dimen name="layout_margin_bottom">4dp</dimen>
+
+    <dimen name="layout_margin">16dp</dimen>
+
+    <!-- Layout margin for the button in the activity_main.xml -->
+    <dimen name="button_layout_margin">32dp</dimen>
+
+    <!-- LinearLayout padding in the activity_quiz.xml -->
+    <dimen name="linear_layout_padding">16dp</dimen>
+
+    <!-- Layout margin for the CheckBox in the activity_quiz.xml -->
+    <dimen name="checkbox_layout_margin_top">8dp</dimen>
+
+    <dimen name="checkbox_layout_margin_bottom">16dp</dimen>
+
+    <!-- Layout margin for the EditText in the activity_quiz.xml -->
+    <dimen name="edit_text_layout_margin_top">8dp</dimen>
+
+    <dimen name="edit_text_layout_margin_bottom">16dp</dimen>
+
+    <!-- LinearLayout margin in the activity_score.xml -->
+    <dimen name="linear_layout_margin_left">20dp</dimen>
+
+    <dimen name="linear_layout_margin_right">20dp</dimen>
+
+    <!-- LinearLayout width in the activity_score.xml-->
+    <dimen name="linear_layout_width">0dp</dimen>
+
+    <!-- Layout width for the View in the activity_score.xml-->
+    <dimen name="view_layout_width">1dp</dimen>
+
+    <!-- Laoyout margin top for the View in the activity_score.xml -->
+    <dimen name="view_layout_margin_top">26dp</dimen>
+
+    <dimen name="button_layout_margin_top">30dp</dimen>
+
+    <dimen name="button_layout_margin_bottom">24dp</dimen>
+
+    <dimen name="question_layout_margin_top">30dp</dimen>
+
+    <dimen name="score_layout_margin_top">24dp</dimen>
+
+    <dimen name="score_layout_margin_bottom">24dp</dimen>
+
+
+</resources>
