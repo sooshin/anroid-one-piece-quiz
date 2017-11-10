@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 public class QuizActivity extends AppCompatActivity{
 
-    private int count = 0;
+    private int count;
 
     private CheckBox tashigiCheckBox;
     private CheckBox kuinaCheckBox;
