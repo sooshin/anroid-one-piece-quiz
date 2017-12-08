@@ -21,10 +21,6 @@
             android:name=".QuizActivity"
             android:label="@string/quiz_activity"
             android:parentActivityName="com.example.android.onepiecequiz.MainActivity">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.onepiecequiz.MainActivity" />
         </activity>
         <activity
             android:name=".ScoreActivity"
