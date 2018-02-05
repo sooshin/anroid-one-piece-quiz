@@ -15,15 +15,6 @@ public class ScoreActivity extends AppCompatActivity {
 
     private String[] quizResult;
 
-    private TextView qOneTextView;
-    private TextView qTwoTextView;
-    private TextView qThreeTextView;
-    private TextView qFourTextView;
-    private TextView qFiveTextView;
-    private TextView qSixTextView;
-    private TextView qSevenTextView;
-    private TextView qEightTextView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,14 +58,14 @@ public class ScoreActivity extends AppCompatActivity {
     private void displayResult() {
 
         // Find the textView that displays the result
-        qOneTextView = findViewById(R.id.q_one);
-        qTwoTextView = findViewById(R.id.q_two);
-        qThreeTextView = findViewById(R.id.q_three);
-        qFourTextView = findViewById(R.id.q_four);
-        qFiveTextView = findViewById(R.id.q_five);
-        qSixTextView = findViewById(R.id.q_six);
-        qSevenTextView = findViewById(R.id.q_seven);
-        qEightTextView = findViewById(R.id.q_eight);
+        TextView qOneTextView = findViewById(R.id.q_one);
+        TextView qTwoTextView = findViewById(R.id.q_two);
+        TextView qThreeTextView = findViewById(R.id.q_three);
+        TextView qFourTextView = findViewById(R.id.q_four);
+        TextView qFiveTextView = findViewById(R.id.q_five);
+        TextView qSixTextView = findViewById(R.id.q_six);
+        TextView qSevenTextView = findViewById(R.id.q_seven);
+        TextView qEightTextView = findViewById(R.id.q_eight);
 
         // Change null to String "X"
         for (int i = 0 ; i <quizResult.length; i++) {
