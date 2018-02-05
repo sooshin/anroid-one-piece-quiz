@@ -30,7 +30,7 @@ public class ScoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_score);
 
         // Find the text view that shows the score
-        TextView scoreTextView = (TextView) findViewById(R.id.score_circle_text);
+        TextView scoreTextView = findViewById(R.id.score_circle_text);
 
         // Get intent from QuizActivity
         Intent quizIntent = getIntent();
@@ -45,7 +45,7 @@ public class ScoreActivity extends AppCompatActivity {
         scoreTextView.setText(String.valueOf(score));
 
         // Find the button that goes back to the Main Activity
-        Button backToStartButton = (Button) findViewById(R.id.back_to_start_button);
+        Button backToStartButton = findViewById(R.id.back_to_start_button);
         backToStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -67,14 +67,14 @@ public class ScoreActivity extends AppCompatActivity {
     private void displayResult() {
 
         // Find the textView that displays the result
-        qOneTextView = (TextView) findViewById(R.id.q_one);
-        qTwoTextView = (TextView) findViewById(R.id.q_two);
-        qThreeTextView = (TextView) findViewById(R.id.q_three);
-        qFourTextView = (TextView) findViewById(R.id.q_four);
-        qFiveTextView = (TextView) findViewById(R.id.q_five);
-        qSixTextView = (TextView) findViewById(R.id.q_six);
-        qSevenTextView = (TextView) findViewById(R.id.q_seven);
-        qEightTextView = (TextView)findViewById(R.id.q_eight);
+        qOneTextView = findViewById(R.id.q_one);
+        qTwoTextView = findViewById(R.id.q_two);
+        qThreeTextView = findViewById(R.id.q_three);
+        qFourTextView = findViewById(R.id.q_four);
+        qFiveTextView = findViewById(R.id.q_five);
+        qSixTextView = findViewById(R.id.q_six);
+        qSevenTextView = findViewById(R.id.q_seven);
+        qEightTextView = findViewById(R.id.q_eight);
 
         // Change null to String "X"
         for (int i = 0 ; i <quizResult.length; i++) {

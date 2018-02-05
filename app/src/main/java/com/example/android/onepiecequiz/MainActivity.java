@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the start button
-        Button startButton = (Button) findViewById(R.id.start_button);
+        Button startButton = findViewById(R.id.start_button);
 
         // Set a click listener on that button
         startButton.setOnClickListener(new View.OnClickListener() {

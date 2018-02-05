@@ -37,34 +37,34 @@ public class QuizActivity extends AppCompatActivity{
         setContentView(R.layout.activity_quiz);
 
         // Find submit button
-        Button submitButton = (Button) findViewById(R.id.submit_button);
+        Button submitButton = findViewById(R.id.submit_button);
 
         // Find checkbox for Tashigi
-        tashigiCheckBox = (CheckBox) findViewById(R.id.tashigi_checkbox);
+        tashigiCheckBox = findViewById(R.id.tashigi_checkbox);
 
         // Find checkbox for kuina
-        kuinaCheckBox = (CheckBox) findViewById(R.id.kuina_checkbox);
+        kuinaCheckBox = findViewById(R.id.kuina_checkbox);
 
         // Find checkbox for NicoRobin
-        nicoRobinCheckBox = (CheckBox) findViewById(R.id.nico_robin_checkbox);
+        nicoRobinCheckBox = findViewById(R.id.nico_robin_checkbox);
 
         // Find checkbox for Nojiko
-        nojikoCheckBox = (CheckBox) findViewById(R.id.nojiko_checkbox);
+        nojikoCheckBox = findViewById(R.id.nojiko_checkbox);
 
         // Find checkbox for Going Merry
-        goingMerryCheckBox = (CheckBox) findViewById(R.id.going_merry_checkbox);
+        goingMerryCheckBox = findViewById(R.id.going_merry_checkbox);
 
         // Find checkbox for Thousand Sunny
-        thousandSunnyCheckBox = (CheckBox) findViewById(R.id.thousand_sunny_checkbox);
+        thousandSunnyCheckBox = findViewById(R.id.thousand_sunny_checkbox);
 
         // Find checkbox for Moby Dick
-        mobyDickCheckBox = (CheckBox) findViewById(R.id.moby_dick_checkbox);
+        mobyDickCheckBox = findViewById(R.id.moby_dick_checkbox);
 
         // Find checkbox for Red Force
-        redForceCheckBox = (CheckBox) findViewById(R.id.red_force_checkbox);
+        redForceCheckBox = findViewById(R.id.red_force_checkbox);
 
         // Find the editText for question 6
-        editText = (EditText) findViewById(R.id.six_edit_text);
+        editText = findViewById(R.id.six_edit_text);
 
         // Set a click listener on submit button
         submitButton.setOnClickListener(new View.OnClickListener() {
