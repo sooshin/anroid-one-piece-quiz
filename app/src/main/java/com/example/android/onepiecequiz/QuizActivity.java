@@ -119,7 +119,7 @@ public class QuizActivity extends AppCompatActivity{
 
         // Check if the answer to question 1 is "He cannot swim."
         // Find the radio group in question 1
-        RadioGroup numberOneGroup = (RadioGroup) findViewById(R.id.number_one_radio_group);
+        RadioGroup numberOneGroup = findViewById(R.id.number_one_radio_group);
         numberOneGroup.clearCheck();
         numberOneGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -136,7 +136,7 @@ public class QuizActivity extends AppCompatActivity{
 
         // Check if the answer to question 2 is "Sanji"
         // Find radio group for question 2
-        RadioGroup numberTwoGroup = (RadioGroup) findViewById(R.id.number_two_radio_group);
+        RadioGroup numberTwoGroup = findViewById(R.id.number_two_radio_group);
         numberTwoGroup.clearCheck();
         // This listener gets triggered whenever the checked radio button changed in this radio group
         numberTwoGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -154,7 +154,7 @@ public class QuizActivity extends AppCompatActivity{
 
         // Check if the answer to question 3 is "Arlong Pirates"
         // Find the radio group in question 3
-        RadioGroup numberThreeGroup = (RadioGroup) findViewById(R.id.number_three_radio_group);
+        RadioGroup numberThreeGroup = findViewById(R.id.number_three_radio_group);
         numberThreeGroup.clearCheck();
         numberThreeGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -171,7 +171,7 @@ public class QuizActivity extends AppCompatActivity{
 
         // Check if the answer to question 5 is "Doctor"
         // Find the radio group in question 5
-        RadioGroup numberFiveGroup = (RadioGroup) findViewById(R.id.number_five_radio_group);
+        RadioGroup numberFiveGroup = findViewById(R.id.number_five_radio_group);
         numberFiveGroup.clearCheck();
         numberFiveGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -188,7 +188,7 @@ public class QuizActivity extends AppCompatActivity{
 
         // Check if the answer to question 7 is "30 million beri"
         // Find the radio group in question 7
-        RadioGroup numberSevenGroup = (RadioGroup) findViewById(R.id.number_seven_radio_group);
+        RadioGroup numberSevenGroup = findViewById(R.id.number_seven_radio_group);
         numberSevenGroup.clearCheck();
         numberSevenGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
