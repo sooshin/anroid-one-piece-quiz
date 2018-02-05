@@ -18,8 +18,8 @@
             android:layout_marginBottom="@dimen/score_layout_margin_bottom"
             android:layout_marginTop="@dimen/score_layout_margin_top"
             android:text="@string/your_score"
-            android:textColor="@color/color_question"
-            android:textAppearance="?android:textAppearanceLarge" />
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/color_question" />
 
         <TextView
             android:id="@+id/score_circle_text"
@@ -118,6 +118,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/button_layout_margin_bottom"
             android:layout_marginTop="@dimen/button_layout_margin_top"
+            android:backgroundTint="@color/color_button"
             android:text="@string/button_back" />
     </LinearLayout>
 
